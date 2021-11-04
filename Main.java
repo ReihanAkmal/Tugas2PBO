@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[]args) {
-        GameCharacter pemain1 = new GameCharacter("Mez0tiC",44,70);
-        GameCharacter pemain2 = new GameCharacter("Talent",45,50);
+        GameCharacter pemain1 = new GameCharacter("Mez0tiC",10,20);
+        GameCharacter pemain2 = new GameCharacter("Talent",5,25);
         pemain1.kick(pemain2);
         pemain2.kick(pemain1);
         for (int i=0;i<3;i++){
